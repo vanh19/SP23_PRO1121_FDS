@@ -12,6 +12,15 @@
         android:theme="@style/Theme.SP23_PRO1121_Nhom5_FDS"
         tools:targetApi="31">
         <activity
+            android:name=".ThemNguoiDung_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ManHinhChao_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ManHinhDangNhap_Activity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
