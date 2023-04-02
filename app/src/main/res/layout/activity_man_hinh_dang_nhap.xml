@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ManHinhDangNhap_Activity"
+    tools:context=".Activity.ManHinhDangNhapActivity"
     android:orientation="vertical">
 
     <LinearLayout
@@ -16,7 +16,7 @@
         <ImageView
             android:layout_width="800dp"
             android:layout_height="80dp"
-            android:src="@drawable/icondiner"
+            android:src="@drawable/icondinner"
             android:layout_gravity="center"
             android:layout_margin="15dp"/>
 
@@ -31,7 +31,7 @@
     </LinearLayout>
 
     <View
-        android:background="@drawable/wave"
+        android:background="@drawable/ic_wave"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginBottom="8dp">
@@ -42,7 +42,7 @@
         android:layout_height="wrap_content"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:hint="Tên đăng nhập"
-        app:startIconDrawable="@drawable/baseline_people_24"
+        app:startIconDrawable="@drawable/ic_baseline_person_24"
         app:endIconMode="clear_text"
         android:layout_margin="8dp">
 
@@ -58,7 +58,7 @@
         app:endIconMode="password_toggle"
         android:hint="Mật khẩu"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        app:startIconDrawable="@drawable/baseline_lock_24"
+        app:startIconDrawable="@drawable/ic_baseline_lock_24"
         android:layout_margin="8dp">
 
         <com.google.android.material.textfield.TextInputEditText
