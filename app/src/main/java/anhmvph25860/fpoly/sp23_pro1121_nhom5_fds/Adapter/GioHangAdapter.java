@@ -55,7 +55,6 @@ public class GioHangAdapter extends BaseAdapter {
         if (view == null){
             bau = new ViewHolder();
             LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-//            view = inflater.inflate(linhdvph25937.fpoly.ungdunggiaodoan_nhom3.R.layout.layout_item_gio_hang, null);
             view = inflater.inflate(R.layout.layout_item_gio_hang, null);
 
             bau.imgGioHang = view.findViewById(R.id.imgGioHang);
